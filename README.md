@@ -1,5 +1,7 @@
 # 公告
 C++版的Canary版可能无法运行（编译错误），您可以游玩网页版。
+# Notice
+The C++ Canary version may not run (compilation error). You can play the web version.
 
 # CHESTS IN THE MAPS Release Version 简介
 
