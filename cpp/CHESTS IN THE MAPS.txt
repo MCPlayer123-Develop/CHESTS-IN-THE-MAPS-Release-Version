@@ -1,0 +1,54 @@
+# CHESTS IN THE MAPS
+
+## 公告
+
+团队纪律：[link](https://www.luogu.com.cn/discuss/1168975)
+
+帖子：[link](https://www.luogu.com.cn/discuss?forumname=g112220&forum=g112220)
+
+重大消息！[[link]](https://www.luogu.com.cn/discuss/1213418)
+
+亲爱的Canary玩家们：  
+现在，Canary版本已经变为网页版，并部署到 [Cloudflare Pages](https://chests-game.pages.dev/)(旧版链接[Cloudflare Pages](https://49be7807.chests-game.pages.dev))，任选一个即可游玩  
+注意：Clouflare Pages 有每日访问次数限制，超出将无法访问，请节制使用。  
+
+CHESTS IN THE MAPS Alpha 0.8 官方宣传海报
+
+![CHESTS IN THE MAPS Alpha 0.8 官方宣传海报](https://i.postimg.cc/bJ2G8hLJ/CHESTS-IN-THE-MAPS-Alpha-0-8-yong-chuang-xia-jie-geng-xin-Through-the-Nether-Update-guan-fang-xuan-chuan-hai-bao.png)
+
+对应版本：
+
+Releases -> 正式版  
+Canary -> 金丝雀版  
+Dev -> 测试版 
+
+
+## 更新日志
+
+CHESTS IN THE MAPS Alpha 0.8.2
+
+**勇闯下界更新**  
+**Through the Nether Update**
+
+### 更新
+1. 物品:录音带
+2. 生物:燃烧骷髅(附带火矢)  
+3. 功能:存档,进度(成就)
+
+### 已修复以下Bug
+1. 地图大小为20时僵尸无法攻击及移动
+
+## 历史
+Alpha 0.1.1 第一个测试版。  
+Alpha 0.2.4 修复0.1.1的大Bug。  
+Alpha 0.3.1 修复0.2.4背包清不干净的问题。  
+Alpha 0.4.5 界面优化，爆率变低，鬼不能覆盖出口。  
+Alpha 0.5.1 界面继续优化，更新僵尸，击杀僵尸，饱食度机制。  
+Alpha 0.6.4 界面进一步优化，更新骷髅，但没有攻击机制。  
+Alpha 0.6.5 更新骷髅射箭。  
+Alpha 0.7.1 修复道具使用Bug。  
+Alpha 0.7.2 修复箭矢碰到墙就卡死的Bug(地图数组越界)  
+Alpha 0.7.3 更新骷髅射出的箭矢能攻击僵尸和骷髅  
+Alpha 0.7.4 更新指令(Debug模式)  
+Alpha 0.8.1 **勇闯下界** 更新下界  
+Alpha 0.8.2 **勇闯下界** 更新下界
