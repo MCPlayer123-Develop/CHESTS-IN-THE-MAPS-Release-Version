@@ -1,3 +1,6 @@
+# 公告
+C++版的Canary版可能无法运行（编译错误），您可以游玩网页版。
+
 # CHESTS IN THE MAPS Release Version 简介
 
 这是一个**基于C++控制台开发的类Minecraft冒险游戏**，核心玩法是：随机生成地图→开箱子获取资源→击杀怪物→激活下界传送门→进入下界冒险→完成成就，支持存档读档、作弊指令、多游戏模式等完整功能。
@@ -166,3 +169,192 @@ void do_order();
 从游戏名称《Chests in the Maps》（地图中的宝箱）和“下界”新关卡的提示来看，**地图探索**与**宝箱收集/解锁**是游戏的核心玩法方向，大概率会包含不同难度的地图场景、隐藏的宝箱线索、关卡进阶挑战等内容，而下界作为“新等级”关卡，预计会有更具挑战性的探索机制和宝箱奖励设定。
 
 目前该游戏从公开页面暂未展示更多玩法细节（如操作方式、宝箱奖励、地图类型等），可通过点击页面“开始游戏”入口体验完整内容，整体为轻量化网页游戏，无需下载安装，浏览器直接访问即可游玩。
+
+# Chests in the Maps Canary Version: Console and Web Game Overview
+
+# Announcement
+
+The C++ Canary version may fail to run (compilation errors). You can play the web version instead.
+
+# Introduction to CHESTS IN THE MAPS Release Version
+
+This is a **Minecraft-like adventure game developed in C++ console**. The core gameplay loop is:
+
+randomly generate a map → open chests for resources → kill monsters → activate the Nether portal → adventure in the Nether → complete achievements.
+
+It includes full features such as save/load, cheat commands, and multiple game modes.
+
+## I. Core Features Overview
+
+|Module|Description|
+|---|---|
+|Map Generation|Randomly generates Overworld / Nether maps with walls, empty spaces, chests, monsters, and portals|
+|Player System|Health, hunger, money, inventory; supports movement, attack, item usage|
+|Monster System|Overworld: Zombie, Skeleton (ranged); Nether: Lava Zombie, Burning Skeleton, Blaze|
+|Item System|Ores, potions, Ender Pearls, Flint and Steel, cassettes (music), End Key|
+|Interaction|Open chests, shop, eat food, use items, view inventory / achievements|
+|Command System|Minecraft-style cheats: /kill, /tp, /give, /gamemode, etc.|
+|Save System|Auto-saves map, inventory, position, monster states; supports loading|
+|Achievement System|8 in-game achievements with unlock notifications|
+## II. Core Data Structures
+
+### 1. Global Variables
+
+- Maps: `overworld[N][N]` (Overworld), `nether[N][N]` (Nether)
+
+- Player: coordinates `x/y`, direction `fx`, health `hp`, hunger `full`, money `money`
+
+- Inventory: `inventory[30]` stores item counts
+
+- Monsters: Struct `MobData` stores position, HP, direction; separate arrays for Zombie, Skeleton, Blaze, etc.
+
+### 2. Enums & Mappings
+
+- Block enum: Defines numeric IDs for all Overworld / Nether blocks (dirt, wall, chest, monster, etc.)
+
+- Mapping tables: `num_to_char_mp` (number to display character), `block_color` (console color for blocks)
+
+## III. Core Function Breakdown
+
+### 1. Map Generation
+
+```C++
+
+void make_world();       // Generate Overworld
+void make_world_nether();// Generate Nether
+void make_wall();        // Randomly generate walls
+void checkRoad();        // Ensure the map is traversable
+```
+
+- Logic: Randomly place walls → DFS check path from spawn to end → regenerate if disconnected → place chests, monsters, portals
+
+### 2. Rendering
+
+```C++
+
+void mp();         // Render Overworld (color console, status display)
+void mp_Nether();   // Render Nether
+```
+
+- Uses `SetConsoleTextAttribute` for **colored block display**
+
+- Top bar shows real-time money, health, hunger
+
+- Debug mode displays coordinates, monster states, map data
+
+### 3. Core Interaction
+
+```C++
+
+void chest();       // Open chest (random resources)
+void shop();        // Shop (buy/sell items)
+void useItem();     // Use items (Ender Pearl, potion, Flint and Steel)
+void eatFood();     // Restore hunger
+```
+
+### 4. Monster AI
+
+- Chase: Automatically moves toward player within 3 blocks
+
+- Attack: Melee monsters deal damage on contact; ranged (Skeleton / Blaze) fire arrows / fireballs
+
+- HP: Visual changes when damaged; drops items on death
+
+### 5. Save / Load
+
+```C++
+
+void read_dat();   // Load save file
+void write_dat();  // Write save file
+```
+
+- Save file: `chest-game-data.dat` stores map, inventory, position, monsters, achievements
+
+- Skin file: `skin.txt` for custom player character and color
+
+### 6. Cheat Commands
+
+```C++
+
+void do_order();
+```
+
+Supported commands:
+
+- `/kill <entity> <ID/all>`: Kill monster / player
+
+- `/tp <x> <y>`: Teleport player
+
+- `/give <item> <amount>`: Give items
+
+- `/gamemode`: Switch Survival / Creative / Adventure
+
+## IV. Controls
+
+|Key|Function|
+|---|---|
+|`W/A/S/D`|Move up/left/down/right|
+|`K`|Attack adjacent monster|
+|`O`|Open chest in front|
+|`E`|Open inventory|
+|`Q`|Eat food|
+|`U`|Use item|
+|`P`|View achievements|
+|`/`|Enter cheat command (cheats enabled)|
+|`1`|Toggle debug mode|
+|`R`|Return to main menu|
+## V. Game Flow
+
+1. **Launch**: New world / Load save
+
+2. **Overworld**: Move → loot chests → fight monsters
+
+3. **Unlock Portal**: Activate end portal with Flint and Steel
+
+4. **Enter Nether**: Fight stronger mobs (Lava Zombie, Blaze)
+
+5. **Complete Goal**: Kill Blaze to get **End Key** and unlock final content
+
+6. **Death**: Survival drops items; Adventure ends game on death
+
+## VI. Run Instructions
+
+1. Compiler: Supports **Dev-C++, Code::Blocks, Visual Studio**
+
+2. OS: Windows (depends on `windows.h`, `conio.h`)
+
+3. Auto-saves on exit; creates save files automatically
+
+This is a fully-featured **console Minecraft clone**. With clean structure and rich functions, it is excellent for C++ beginners to learn console graphics, data storage, and game logic development.
+
+---
+
+# Introduction to CHESTS IN THE MAPS Canary Version
+
+*Chests in the Maps* is a browser-based game playable directly online. Official site: [https://chests-game.pages.dev/](https://chests-game.pages.dev/).
+
+Based on the page info, the game centers on **chests and map exploration** and has introduced a new “The Nether” stage as advanced content.
+
+### Core Basic Features
+
+The page provides clear, essential gameplay options:
+
+1. **🎮 Start Game** – Begin map exploration and chest-collecting adventure
+
+2. **🏆 Achievements** – View progress and goals
+
+3. **📂 Load Save** – Continue previous progress
+
+4. **⚙️ Settings** – Adjust gameplay parameters
+
+### Gameplay Core
+
+From the title *Chests in the Maps* and the Nether stage, **exploration** and **chest collection/unlocking** are the core loops.
+
+It likely includes multiple difficulty maps, hidden chest clues, and progressive challenges.
+
+The Nether, as a new high-difficulty area, is expected to feature tougher mechanics and better rewards.
+
+More details (controls, rewards, map types) are not fully shown on the public page.
+
+You can experience the full game by clicking **Start Game**. It is a lightweight web game with no installation required.
