@@ -1,7 +1,11 @@
 # 公告
-C++版的Canary版可能无法运行（编译错误），您可以游玩网页版。
+Alpha 0.8.4-Dev-snapshot260411更新内容：
+1. 修改了更多的“中式英语”（Chinglish）
+2. 加入按键绑定和加入了标题画面的选项
 # Notice
-The C++ Canary version may not run (compilation error). You can play the web version.
+Alpha 0.8.4-Dev-snapshot260411 update:
+1. We fixed more "Chinglish"
+2. We added Key binds and options
 
 # CHESTS IN THE MAPS Release Version 简介
 
