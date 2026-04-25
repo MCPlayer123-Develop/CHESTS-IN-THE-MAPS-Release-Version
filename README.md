@@ -1,11 +1,12 @@
 # 公告
-Alpha 0.8.4-Dev-snapshot260411更新内容：
-1. 修改了更多的“中式英语”（Chinglish）
-2. 加入按键绑定和加入了标题画面的选项
+### Alpha 0.8.4-Dev-snapshot260424更新内容：
+1. 分文件
+1. 将英语更加标准化（贴近Minecraft）
+
 # Notice
-Alpha 0.8.4-Dev-snapshot260411 update:
-1. We fixed more "Chinglish"
-2. We added Key binds and options
+### Alpha 0.8.4-Dev-snapshot260424 update：
+1. Use Cmake To file by file
+1. Standardize English further (closer to Minecraft)
 
 # CHESTS IN THE MAPS Release Version 简介
 
