@@ -1,0 +1,51 @@
+Map size = 10
+6 8 4 2 8 4 1 5 5 7 
+4 0 9 3 1 1 5 5 2 8 
+7 7 4 1 2 4 7 3 3 2 
+0 0 0 14 5 2 0 6 4 7 
+0 5 7 5 7 1 5 7 6 5 
+14 5 7 2 1 2 2 2 6 6 
+5 2 2 4 4 9 4 8 1 1 
+2 4 7 6 6 6 2 1 3 3 
+8 7 8 4 4 0 3 5 0 0 
+5 2 3 6 9 7 2 6 3 5 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Position = 1,6 (Facing:0)
+Money = 0
+Health = 18
+Hunger = 20
+Hunger step summary = 5
+Biome = 1
+Zombie_sum = 3
+(2,3) Health = 3
+(7,6) Health = 3
+(10,5) Health = 3
+Skeleton_sum = 2
+(6,1) Health = 3
+(4,4) Health = 3
+Arrow_sum = 0
+Advencements = 0,0,0,0,0,1,1,0,
+Portal status = 0
+Debug screen = 0
+Allow command = 1
+Gamemode = 1
+3 0 0 1 1 2 19 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 
+1 10 1 5 4 1 1 1 1 1 
+1 10 1 5 1 1 1 16 1 1 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+0 0 0 1 1 1 0 0 0 0 
+Lava_zombie_sum = 2
+(5,4) health = 5
+(6,4) health = 5
+Burn_skeleton_sum = 2
+(5,2) Health = 5
+(6,2) Health = 5
+Blaze_sum = 2
+(1,7) Health = 2
+(6,8) Health = 5
+Burn_arrow_sum = 0
