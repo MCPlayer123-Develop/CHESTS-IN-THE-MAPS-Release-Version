@@ -1,12 +1,20 @@
 # 公告
-### Alpha 0.8.4-Dev-snapshot260424更新内容：
+### Alpha 0.8.4-Dev-snapshot260428更新内容：
 1. 分文件
-1. 将英语更加标准化（贴近Minecraft）
+2. 将英语更加标准化（贴近Minecraft）
+3. 解决了中文在某些IDE上乱码的问题（统一使用UTF-8）
+4. 修复了创造模式的某些漏洞
+5. 修复了关于一些下界传送门和下界存档的漏洞
+
+
 
 # Notice
-### Alpha 0.8.4-Dev-snapshot260424 update：
-1. Use Cmake To file by file
-1. Standardize English further (closer to Minecraft)
+### Alpha 0.8.4-Dev-snapshot260428 Update Content:
+1. Split into files
+2. Make the English more standardized (closer to Minecraft)
+3. Resolved the issue of garbled Chinese text in certain IDEs (unified use of UTF-8)
+4. Fixed certain bugs in Creative Mode
+5. Fixed some bugs about nether portal saves and nether saves
 
 # CHESTS IN THE MAPS Release Version 简介
 
