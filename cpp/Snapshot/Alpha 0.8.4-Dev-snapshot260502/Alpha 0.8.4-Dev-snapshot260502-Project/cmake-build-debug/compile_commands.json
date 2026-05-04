@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\Project1.dir\\Code\\main.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260502\\Alpha 0.8.4-Dev-snapshot260502-Project\\Code\\main.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/main.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug/CMakeFiles/Project1.dir/Code/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\Project1.dir\\Code\\game.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260502\\Alpha 0.8.4-Dev-snapshot260502-Project\\Code\\game.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/game.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug/CMakeFiles/Project1.dir/Code/game.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\Project1.dir\\Code\\entity.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260502\\Alpha 0.8.4-Dev-snapshot260502-Project\\Code\\entity.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/entity.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug/CMakeFiles/Project1.dir/Code/entity.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\Project1.dir\\Code\\ui.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260502\\Alpha 0.8.4-Dev-snapshot260502-Project\\Code\\ui.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/ui.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug/CMakeFiles/Project1.dir/Code/ui.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\Project1.dir\\Code\\map.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260502\\Alpha 0.8.4-Dev-snapshot260502-Project\\Code\\map.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/map.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/cmake-build-debug/CMakeFiles/Project1.dir/Code/map.cpp.obj"
+}
+]

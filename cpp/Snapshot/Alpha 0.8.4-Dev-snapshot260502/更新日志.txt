@@ -1,0 +1,7 @@
+Alpha 0.8.4-Dev-snapshot260502更新内容：
+1. 完成了统计信息
+2. 完善分文件
+
+Alpha 0.8.4-Dev-snapshot260502 Update Content:
+1. Compeled the statistics
+2. Compeled the file by file
