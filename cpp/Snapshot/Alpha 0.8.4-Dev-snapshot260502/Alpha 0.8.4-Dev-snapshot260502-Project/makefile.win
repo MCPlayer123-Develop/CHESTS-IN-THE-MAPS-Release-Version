@@ -1,0 +1,49 @@
+# Project: Project1
+# Makefile created by Red Panda C++ 3.3.3147
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = "-Wl,--stack,12582912"
+INCS     = 
+CXXINCS  = 
+CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-fexec-charset=gbk" "-D_DEBUG"
+CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-fexec-charset=gbk" "-D_DEBUG"
+WINDRESFLAGS = 
+RES      = Project1_private.res
+OBJ      = Code/map.o Code/game.o Code/main.o Code/entity.o Code/ui.o $(RES)
+BIN      = Project1.exe
+LINKOBJ  = "Code/map.o" "Code/game.o" "Code/main.o" "Code/entity.o" "Code/ui.o" "Project1_private.res"
+CLEANOBJ = "Code\map.o" "Code\game.o" "Code\main.o" "Code\entity.o" "Code\ui.o" "Project1_private.res" "Project1.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+Project1.exe: $(OBJ)
+
+	$(CXX) $(LINKOBJ) -o "Project1.exe" $(LIBS)
+
+Code/map.o: Code/map.cpp Lib/ui.h Lib/map.h Lib/game.h Lib/entity.h
+	$(CXX) -c "Code/map.cpp" -o "Code/map.o" $(CXXFLAGS) 
+
+Code/game.o: Code/game.cpp Lib/ui.h Lib/map.h Lib/game.h Lib/entity.h
+	$(CXX) -c "Code/game.cpp" -o "Code/game.o" $(CXXFLAGS) 
+
+Code/main.o: Code/main.cpp Lib/ui.h Lib/map.h Lib/game.h Lib/entity.h
+	$(CXX) -c "Code/main.cpp" -o "Code/main.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+Code/entity.o: Code/entity.cpp Lib/ui.h Lib/map.h Lib/game.h Lib/entity.h
+	$(CXX) -c "Code/entity.cpp" -o "Code/entity.o" $(CXXFLAGS) 
+
+Code/ui.o: Code/ui.cpp Lib/ui.h Lib/map.h Lib/game.h Lib/entity.h
+	$(CXX) -c "Code/ui.cpp" -o "Code/ui.o" $(CXXFLAGS) 
+
+Project1_private.res: Project1_private.rc 
+	$(WINDRES) -i "Project1_private.rc" --input-format=rc -o "Project1_private.res" -O coff $(WINDRESFLAGS) 
+

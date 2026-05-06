@@ -1,0 +1,48 @@
+[
+    {
+        "caretX": 23,
+        "caretY": 4,
+        "filename": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/game.cpp",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 23,
+        "caretY": 4,
+        "filename": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/entity.cpp",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 23,
+        "caretY": 4,
+        "filename": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/map.cpp",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 16,
+        "caretY": 6,
+        "filename": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/ui.cpp",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 13,
+        "caretY": 6,
+        "filename": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260502/Alpha 0.8.4-Dev-snapshot260502-Project/Code/main.cpp",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 0
+    }
+]
