@@ -1,16 +1,10 @@
 # 公告
-### Alpha 0.8.4-Dev-snapshot260502更新内容：
-1. 完成了统计信息
-2. 完善分文件
-3. 修复了“世界回溯”
-4. 加入了一些秘密
+### Alpha 0.8.4-Dev-snapshot260507更新内容：
+1. 加入了多存档
 
 # Notice
-### Alpha 0.8.4-Dev-snapshot260502 Update Content:
-1. Compeled the statistics
-2. Compeled the file by file
-3. Fix the time reverse
-4. Add some secrets
+### Alpha 0.8.4-Dev-snapshot260507 Update Content:
+1. 加入了多存档
 
 # CHESTS IN THE MAPS Release Version 简介
 
