@@ -1,10 +1,14 @@
 # 公告
 ### Alpha 0.8.4-Dev-snapshot260507更新内容：
 1. 加入了多存档
+2. 使多存档兼容性更强
+3. 增强敌对生物侦测范围
 
 # Notice
 ### Alpha 0.8.4-Dev-snapshot260507 Update Content:
-1. 加入了多存档
+1. Added multi-archive
+2. Enhance multi-archive compatibility
+3. Increase the detection range of hostile mobs
 
 # CHESTS IN THE MAPS Release Version 简介
 
