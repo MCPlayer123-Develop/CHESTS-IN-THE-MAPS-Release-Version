@@ -1,0 +1,33 @@
+Map size = 10
+6 7 2 8 5 1 8 14 4 5 
+4 10 4 4 2 1 5 5 4 7 
+2 7 7 5 7 3 7 1 7 1 
+6 7 5 2 6 4 6 9 3 2 
+0 14 5 5 4 4 6 4 1 5 
+7 1 6 1 2 9 0 1 2 7 
+1 1 4 6 3 2 4 6 3 2 
+7 7 7 6 1 7 4 5 1 4 
+7 6 3 4 0 4 7 6 11 6 
+5 9 3 3 2 3 2 6 6 4 
+0 0 0 0 0 0 0 0 0 0 0 11 6 0 0 0 0 0 0 0 
+Position = 2,2 (Facing:0)
+Money = 19447
+Health = 20
+Hunger = 20
+Hunger step summary = 4
+Biome = 0
+Zombie_sum = 3
+(10,2) Health = 3
+(4,8) Health = 3
+(6,6) Health = 3
+Skeleton_sum = 2
+(5,2) Health = 3
+(1,8) Health = 3
+Arrow_sum = 0
+Advencements = 1,1,1,1,0,0,0,0,
+
+Portal status = 0
+Debug screen = 0
+Allow command = 0
+Gamemode = 0
+Statistics = 4 73 0 74 2 4 11 0 0 0 0 
