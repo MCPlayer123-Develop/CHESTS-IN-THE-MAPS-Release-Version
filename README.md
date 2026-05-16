@@ -41,23 +41,48 @@
 
 ### 3\. 核心函数解析
 
-void make\_world \(\);       // 生成主世界
-void make\_world\_nether \(\);// 生成下界
-void make\_wall \(\);        // 随机生成墙壁
-void checkRoad \(\);        // DFS 检测地图通路
+```cpp
+// Entity
+void update_mobs_overworld();
+void update_mobs_nether();
+void check_attack_overworld();
+void check_attack_nether();
 
-void mp \(\);         // 渲染主世界（彩色控制台）
-void mp\_Nether \(\);  // 渲染下界
+// Map
+void print_map();
+void print_map_Nether();
+void generation_wall();
+void generation_world();
+void generation_world_nether();
+void checkRoad();
+int nether_block_check();
 
-void chest \(\);      // 开箱子（随机获取资源）
-void shop \(\);       // 商店买卖
-void useItem \(\);    // 使用道具
-void eatFood \(\);    // 恢复饱食度
+// UI & Gameplay
+void title_screen();
+void options();
+void chest();
+void chest_nether();
+void shop();
+void useItem();
+void useItem_nether();
+void eatFood();
+void view_inventory();
+void view_advencements();
+void command();
+void statistic();
+int game_menu();
 
-void read\_dat \(\);   // 读取存档文件
-void write\_dat \(\);  // 写入存档文件
+// Game Logic
+void game_overworld();
+void game_nether();
 
-void do\_order \(\);   // 处理 /kill、/tp、/give 等指令
+// Save & Load
+void read_game_data();
+void write_game_data();
+
+// Easter egg
+void eggs_mcplayer123();
+```
 
 ### 4\. 怪物 AI
 
@@ -207,23 +232,46 @@ This is a full\-featured version developed based on the C\+\+ console, implement
 ### 3\. Core Function Analysis
 
 ```cpp
-void make_world();       // Generate Overworld
-void make_world_nether();// Generate Nether
-void make_wall();        // Randomly generate walls
-void checkRoad();        // DFS to detect map pathways
+// Entity
+void update_mobs_overworld();
+void update_mobs_nether();
+void check_attack_overworld();
+void check_attack_nether();
 
-void mp();         // Render Overworld (colorful console)
-void mp_Nether();  // Render Nether
+// Map
+void print_map();
+void print_map_Nether();
+void generation_wall();
+void generation_world();
+void generation_world_nether();
+void checkRoad();
+int nether_block_check();
 
-void chest();      // Open chest (randomly obtain resources)
-void shop();       // Shop trading
-void useItem();    // Use items
-void eatFood();    // Restore hunger level
+// UI & Gameplay
+void title_screen();
+void options();
+void chest();
+void chest_nether();
+void shop();
+void useItem();
+void useItem_nether();
+void eatFood();
+void view_inventory();
+void view_advencements();
+void command();
+void statistic();
+int game_menu();
 
-void read_dat();   // Read save file
-void write_dat();  // Write to save file
+// Game Logic
+void game_overworld();
+void game_nether();
 
-void do_order();   // Process commands like /kill, /tp, /give
+// Save & Load
+void read_game_data();
+void write_game_data();
+
+// Easter egg
+void eggs_mcplayer123();
 ```
 
 ### 4\. Monster AI
