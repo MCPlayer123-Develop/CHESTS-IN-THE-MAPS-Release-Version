@@ -106,6 +106,7 @@ void eggs_mcplayer123();
 |`/`|输入作弊指令（需开启作弊）|
 |`1`|切换调试模式|
 |`R`|返回主界面|
+>提示：你可以在选项里按键绑定
 
 ### 6\. 游戏流程
 
@@ -296,6 +297,7 @@ void eggs_mcplayer123();
 |`/`|Enter cheat commands \(cheats must be enabled\)|
 |`1`|Toggle debug mode|
 |`R`|Return to main menu|
+>Tip:You can bind keys in options.
 
 ### 6\. Game Process
 
