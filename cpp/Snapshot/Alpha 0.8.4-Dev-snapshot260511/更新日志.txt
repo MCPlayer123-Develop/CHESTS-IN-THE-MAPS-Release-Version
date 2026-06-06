@@ -1,0 +1,13 @@
+### Alpha 0.8.4-Dev-snapshot260511更新内容：
+1. 进一步修复了下界存档的漏洞（自动存档）
+2. 加入了僵尸增援
+3. 增强了敌对生物AI(bfs寻路)
+4. 修复了一些/give指令中的单词错误
+5. 完善了语言功能
+
+### Alpha 0.8.4-Dev-snapshot260511 Update Content:
+1. Fixed some bugs about save in nether (auto-save)
+2. Added zombie reinforcements
+3. Let hostile mobs AI stronger(bfs find way)
+4. Fixed some wrong words in command /give
+5. Compeleted Language Option

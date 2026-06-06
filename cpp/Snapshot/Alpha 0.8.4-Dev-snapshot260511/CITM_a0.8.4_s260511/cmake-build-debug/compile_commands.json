@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4_s260511.dir\\Code\\main.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260511\\CITM_a0.8.4_s260511\\Code\\main.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/Code/main.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir/Code/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4_s260511.dir\\Code\\game.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260511\\CITM_a0.8.4_s260511\\Code\\game.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/Code/game.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir/Code/game.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4_s260511.dir\\Code\\entity.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260511\\CITM_a0.8.4_s260511\\Code\\entity.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/Code/entity.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir/Code/entity.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4_s260511.dir\\Code\\ui.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260511\\CITM_a0.8.4_s260511\\Code\\ui.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/Code/ui.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir/Code/ui.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4_s260511.dir\\Code\\map.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260511\\CITM_a0.8.4_s260511\\Code\\map.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/Code/map.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir/Code/map.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4_s260511.dir\\Code\\save.cpp.obj -c \"C:\\Users\\admin\\Desktop\\cpp\\Snapshot\\Alpha 0.8.4-Dev-snapshot260511\\CITM_a0.8.4_s260511\\Code\\save.cpp\"",
+  "file": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/Code/save.cpp",
+  "output": "C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir/Code/save.cpp.obj"
+}
+]

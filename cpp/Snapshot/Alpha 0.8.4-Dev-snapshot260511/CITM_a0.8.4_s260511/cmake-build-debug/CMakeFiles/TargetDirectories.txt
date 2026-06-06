@@ -1,0 +1,3 @@
+C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/CITM_a0.8.4_s260511.dir
+C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/Desktop/cpp/Snapshot/Alpha 0.8.4-Dev-snapshot260511/CITM_a0.8.4_s260511/cmake-build-debug/CMakeFiles/rebuild_cache.dir

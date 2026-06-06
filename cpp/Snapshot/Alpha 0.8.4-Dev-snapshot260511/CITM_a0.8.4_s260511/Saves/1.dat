@@ -1,0 +1,36 @@
+Alpha_0.8.4-Dev-snapshot260511
+Map size = 10
+0 0 0 0 0 0 0 0 0 0 
+0 10 0 0 0 0 0 0 0 0 
+0 9 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 14 0 0 0 0 9 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 9 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Position = 2,2 (Facing:0)
+Money = 0
+Health = 17
+Hunger = 20
+Hunger step summary = 1
+Biome = 0
+Zombie_sum = 3
+(10,8) Health = 3
+(3,2) Health = 3
+(8,8) Health = 3
+Skeleton_sum = 2
+(8,3) Health = 3
+(5,1) Health = 3
+Arrow_sum = 0
+advancements = 1,1,1,1,1,0,0,0,
+
+Portal status = 0
+Debug screen = 0
+Allow command = 0
+Keep Inventory = 0
+Gamemode = 0
+Nether Return = 0
+Statistics = 2 148 0 31 0 7 3 0 0 0 0 

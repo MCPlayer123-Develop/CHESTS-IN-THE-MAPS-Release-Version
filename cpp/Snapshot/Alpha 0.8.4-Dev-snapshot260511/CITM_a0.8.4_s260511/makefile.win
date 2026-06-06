@@ -1,0 +1,47 @@
+# Project: CITM_a0.8.4_s260511
+# Makefile created by Red Panda C++ 3.3.3147
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = "-Wl,--stack,12582912" "-s" "-static"
+INCS     = 
+CXXINCS  = 
+CXXFLAGS = $(CXXINCS) "-O2" "-pipe"
+CFLAGS   = $(INCS) "-O2" "-pipe"
+WINDRESFLAGS = 
+OBJ      = Code/game.o Code/main.o Code/save.o Code/ui.o Code/entity.o Code/map.o
+BIN      = CITM_a0.8.4_s260511.exe
+LINKOBJ  = "Code/game.o" "Code/main.o" "Code/save.o" "Code/ui.o" "Code/entity.o" "Code/map.o"
+CLEANOBJ = "Code\game.o" "Code\main.o" "Code\save.o" "Code\ui.o" "Code\entity.o" "Code\map.o" "CITM_a0.8.4_s260511.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+CITM_a0.8.4_s260511.exe: $(OBJ)
+
+	$(CXX) $(LINKOBJ) -o "CITM_a0.8.4_s260511.exe" $(LIBS)
+
+Code/game.o: Code/game.cpp Lib/entity.h Lib/save.h Lib/game.h Lib/map.h Lib/ui.h
+	$(CXX) -c "Code/game.cpp" -o "Code/game.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+Code/main.o: Code/main.cpp Lib/entity.h Lib/save.h Lib/game.h Lib/map.h Lib/ui.h
+	$(CXX) -c "Code/main.cpp" -o "Code/main.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+Code/save.o: Code/save.cpp Lib/entity.h Lib/save.h Lib/game.h Lib/map.h Lib/ui.h
+	$(CXX) -c "Code/save.cpp" -o "Code/save.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+Code/ui.o: Code/ui.cpp Lib/entity.h Lib/save.h Lib/game.h Lib/map.h Lib/ui.h
+	$(CXX) -c "Code/ui.cpp" -o "Code/ui.o" $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+Code/entity.o: Code/entity.cpp Lib/entity.h Lib/save.h Lib/game.h Lib/map.h Lib/ui.h
+	$(CXX) -c "Code/entity.cpp" -o "Code/entity.o" $(CXXFLAGS) 
+
+Code/map.o: Code/map.cpp Lib/entity.h Lib/save.h Lib/game.h Lib/map.h Lib/ui.h
+	$(CXX) -c "Code/map.cpp" -o "Code/map.o" $(CXXFLAGS) 
