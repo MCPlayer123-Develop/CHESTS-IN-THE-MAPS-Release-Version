@@ -1,0 +1,9 @@
+### Alpha 0.8.4-pre1更新内容：
+1. 修复了读取存档后新建世界数据残留的漏洞
+2. 修复了语言功能的残留漏洞
+3. 加入了So Far Away语
+
+### Alpha 0.8.4-pre1 Update Content:
+1. Fixed the dava residual after read saves then regeneration world
+2. Fixed some bugs the language option residual
+3. Added So Far Away Language
