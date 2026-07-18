@@ -1,0 +1,19 @@
+### Alpha 0.8.4-pre2更新内容：
+1. 修复了pre1生存模式中可以拿取创造模式物品栏的物品的漏洞
+2. 修复了pre1创造模式物品栏拿取物品的一些漏洞
+3. 完成了LOLCAT (Kingdom of Cats)、Deutsch (Deutschland)、文言 (華夏)、Русский (СССР)
+4. 加入了版本错误提醒
+5. 修复zh-CN.txt语言文件中shop.prompt_buy的拼写错误（"那个" -> "哪个"）
+6. 修复了早期版本留下的"chest-game-data.dat"存档问题
+7. 修复了CMakeLists.txt的一些错误
+8. 修复了创造模式敌对生物攻击扣除生命值的问题
+
+### Alpha 0.8.4-pre2 Update Content:
+1. Fixed the bug where players could pick up items from the creative inventory in pre1 survival mode
+2. Fixed some bugs in the pre1 creative mode inventory where items could be improperly taken
+3. Compeleted Language LOLCAT (Kingdom of Cats), Deutsch (Deutschland), 文言 (華夏) and Русский (СССР)
+4. Added tips when version wrong
+5. Fixed shop.prompt_buy's spell wrong in zh-CN.txt("那个" -> "哪个")
+6. Fixed the bug: "chest-game-data.dat" from early version
+7. Fixed some bugs in file: "CMakeLists.txt"
+8. Fixed the bug: Hostile Mobs can damage the creative player
