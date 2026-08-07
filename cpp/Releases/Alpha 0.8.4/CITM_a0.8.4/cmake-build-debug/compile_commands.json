@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\main.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\main.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/main.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\game.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\game.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/game.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/game.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\entity.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\entity.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/entity.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/entity.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\ui.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\ui.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/ui.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/ui.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\map.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\map.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/map.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/map.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\save.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\save.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/save.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/save.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\game_nether.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\game_nether.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/game_nether.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/game_nether.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\CITM_a0.8.4.dir\\Code\\player.cpp.obj -c \"C:\\Users\\admin\\Desktop\\Workspace\\Develop\\cpp\\Releases\\Alpha 0.8.4\\CITM_a0.8.4\\Code\\player.cpp\"",
+  "file": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/player.cpp",
+  "output": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/cmake-build-debug/CMakeFiles/CITM_a0.8.4.dir/Code/player.cpp.obj"
+}
+]

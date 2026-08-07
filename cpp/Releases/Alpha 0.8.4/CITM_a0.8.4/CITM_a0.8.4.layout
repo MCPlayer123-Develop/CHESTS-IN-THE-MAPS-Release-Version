@@ -1,0 +1,22 @@
+[
+    {
+        "caretX": 21,
+        "caretY": 12,
+        "filename": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 0
+    },
+    {
+        "caretX": 32,
+        "caretY": 10,
+        "filename": "C:/Users/admin/Desktop/Workspace/Develop/cpp/Releases/Alpha 0.8.4/CITM_a0.8.4/Code/player.cpp",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 0
+    }
+]

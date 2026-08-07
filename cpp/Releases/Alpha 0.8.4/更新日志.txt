@@ -1,0 +1,7 @@
+### Alpha 0.8.4更新内容：
+1. 进一步细分了游戏文件
+2. 将标语"Made by hezhibao!"更改为"Made by MCPlayer123!"
+
+### Alpha 0.8.4 Update Content:
+1. Further subdivided the game files
+2. Changed slogan: "Made by hezhibao!" -> "Made by MCPlayer123!"
