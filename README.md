@@ -1,7 +1,7 @@
 # CHESTS IN THE MAPS
 ## Wiki
-维基百科网址：[[Link]](https://mcplayer123-develop.github.io/CITM-Wiki)\
-Wiki Address: [[Link]](https://mcplayer123-develop.github.io/CITM-Wiki)
+维基百科链接：[[Link]](https://mcplayer123-develop.github.io/CITM-Wiki)\
+Wiki Link: [[Link]](https://mcplayer123-develop.github.io/CITM-Wiki)
 
 ## 项目概述
 
