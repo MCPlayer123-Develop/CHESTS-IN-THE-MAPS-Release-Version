@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: b4cb1128f47feec33f4931058d863416_69013d9292d311f1a102525400826444
-    ReservedCode1: xqOQtCFl2jt44Ae0lxflqZlSIDjQ3LMHwOVlukf9+vUbcDczRHXxLgzeHIJY66N1abAU469dGgsnKrvw1+2h4GX0s+y5jGV2aSXclX9jOxqBrFF+Fwb/nBgH2LVf2Yz5AAgxOY0iMxLIlbIsJNjQsPhJL75+wzPNpRMIdAjo9hl/cucQonydFJis4m4=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: b4cb1128f47feec33f4931058d863416_69013d9292d311f1a102525400826444
-    ReservedCode2: xqOQtCFl2jt44Ae0lxflqZlSIDjQ3LMHwOVlukf9+vUbcDczRHXxLgzeHIJY66N1abAU469dGgsnKrvw1+2h4GX0s+y5jGV2aSXclX9jOxqBrFF+Fwb/nBgH2LVf2Yz5AAgxOY0iMxLIlbIsJNjQsPhJL75+wzPNpRMIdAjo9hl/cucQonydFJis4m4=
----
-
 # CHESTS IN THE MAPS
 ## Wiki
 维基百科链接：[[Link]](https://mcplayer123-develop.github.io/CITM-Wiki)\
@@ -255,4 +244,3 @@ The web version requires no download or installation — play directly in your b
 ## Target Audience
 - C++ Console Version: Suitable for C++ beginners to study console graphics, data storage, and game logic development
 - Web Version: Suitable for all players to quickly experience lightweight map exploration and chest adventure gameplay
-*（内容由AI生成，仅供参考）*
